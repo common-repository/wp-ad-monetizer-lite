@@ -1,0 +1,37 @@
+<style type="text/css">
+.sf-menu ul a{padding:12.5px 9.8px \0/IE9;}  /* IE7 & IE9 compatability mode*/
+.sf-menu ul a{font-family: fantasy;
+    font-size: 12px;
+	padding: 0.75em 0.672em;
+	}
+.sf-menu ul li {
+	background: #525352;
+background: -moz-linear-gradient(top, #525352 0%, #474747 39%, #242424 70%, #141414 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#525352), color-stop(39%,#474747), color-stop(70%,#242424), color-stop(100%,#141414));
+background: -webkit-linear-gradient(top, #525352 0%,#474747 39%,#242424 70%,#141414 100%);
+background: -o-linear-gradient(top, #525352 0%,#474747 39%,#242424 70%,#141414 100%);
+background: -ms-linear-gradient(top, #525352 0%,#474747 39%,#242424 70%,#141414 100%);
+background: linear-gradient(to bottom, #525352 0%,#474747 39%,#242424 70%,#141414 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525352', endColorstr='#141414',GradientType=0 );
+}
+
+.sf-sub-indicator {
+    right: 0.5em;}
+a > .sf-sub-indicator {
+    top: 0.8em;
+}
+
+.sf-menu ul li:hover, .sf-menu ul li.sfHover, .sf-menu ul a:focus, .sf-menu ul a:hover, .sf-menu ul a:active {
+   color: #EF6309;
+    outline: 0 none;
+}
+.sf-menu ul li li {
+    background: -moz-linear-gradient(center top , #525352 0%, #474747 39%, #242424 70%, #141414 100%) repeat scroll 0 0 transparent;
+}
+.sf-menu ul ul {
+    width: 15em;}
+.sf-menu ul a, .sf-menu ul a:visited {
+    color: #F76606;
+}
+
+</style>

@@ -1,0 +1,27 @@
+.meta-body {margin-top: 15px;}
+.meta-title { float: left;width: 25%;}
+.meta-input { float: left; width: 74%;}
+.meta-description { font-style: italic;}
+.multi_img_div { position:relative;margin:0px 5px 5px 0px!important; display:inline-block!important;}
+.remove_img_div{color: #FF0000;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    top: 0;
+	display:none;
+	}
+.remove_img_div:hover { color:#FF0000;}
+.multi_img_div:hover a,img
+   {
+  display: block;
+  cursor:pointer;
+  }
+.multi_img_div img {border-radius:3px;}
+.show-inline{ display:inline-block; }
+
+.show-inline > label {
+    padding-right: 20px;
+    vertical-align: top;
+}
+#upload_image{ width:100%;}
